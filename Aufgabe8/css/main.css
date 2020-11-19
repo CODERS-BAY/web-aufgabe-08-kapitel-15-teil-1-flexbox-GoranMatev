@@ -1,0 +1,226 @@
+/* 
+    Colorpattern
+
+    yellow = rgb(255,214,26)
+    orange = rgb(246,120,35)
+    blue = rgb(5,84,153)
+
+*/
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Caveat', cursive;
+    
+}
+.herocontainer{
+    width: 100%;
+    display: flex;
+    background-image: url("../media/hero3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.herosection{
+    display: flex;
+    flex-direction: column;
+    color: rgb(255,214,26);
+    font-family: 'Caveat', cursive; 
+}
+
+.headline{
+    padding-left: 4%;
+    font-size: 6rem;
+    text-shadow: 2px 2px 2px rgb(0,0,0);
+}
+
+.subheadline{
+    margin-left: 10%;
+    font-size: 2rem;
+    transform: rotate(-10deg);
+    margin-top: 0;
+    background-color: rgba(5,84,153,.75);
+    padding:20px;
+    max-width: 35%;
+}
+
+.darkfilter{
+    background-color: rgba(0,0,0,.25);
+    min-height: 25vh;
+    min-width: 100%;
+}
+
+.navigation{
+    display: flex;
+    width: 100%;
+    height: 75px;
+    background-color: rgb(255,214,26);
+    align-items: center;
+    justify-content: center;
+    color: rgb(5,84,153);
+    font-family: 'Caveat', cursive;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+}
+
+li{
+    list-style: none;
+    padding: 0 5vw;
+}
+
+article{
+    display: flex;
+    flex-flow: row wrap;
+    margin: 5% 0;
+}
+
+section{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    max-height: 25vw;
+    margin: 0 4vw;
+    border-radius: 20px;
+}
+
+span{
+    background-color: rgba(5,84,153,.75);
+    padding: 1%;
+    color: rgb(255,214,26);
+    font-family: 'Caveat', cursive;
+    font-weight: 800;
+    word-spacing: 0.2rem;
+    font-size: 2rem;
+}
+
+p{
+    font-size: 2rem;
+    line-height: 3rem;
+    word-spacing: 0.8rem;
+    letter-spacing: 0.4rem;
+    font-weight: 800;
+    font-family: 'Caveat', cursive;
+}
+
+.cta{
+    width: 100%;
+    height: 20vh;
+    transform: rotate(5deg);
+}
+
+footer{
+    width: 100%;
+    height: 7vh;
+    background-color: rgb(5,84,153);
+
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(5,84,153);
+}
+
+a.cta{
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(246,120,35);
+}
+
+.gallery{
+    display: flex;
+    justify-content: center;
+    flex: 0 1 20%;
+    flex-flow: row wrap;
+}
+
+img.gallery{
+    box-shadow: 6px 6px 6px rgba(0,0,0,.25);
+    margin: 20px;
+}
+
+h1{
+    width: 100%;
+    font-size: 4rem;
+    color: rgb(5,84,153);
+    margin: 0 25%;
+}
+
+.gallery_header{
+    grid-column: 2/6;
+    grid-row: 1/2;
+    place-self: center;
+    font-size: 4rem;
+    color: rgb(5,84,153);
+}
+
+.gallery_essen{
+    display: grid;
+    place-items: center;
+    grid-template-columns: 5% 20% 20% 20% 20% 5%;
+    grid-template-rows: 150px auto auto auto;
+    margin-bottom: 5%;
+    gap: 10px 5px;
+}
+
+.gallery_items1 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.gallery_items2 {
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+.gallery_items3 {
+    grid-column: 4/5;
+    grid-row: 2/3;
+}
+.gallery_items4 {
+    grid-column: 5/6;
+    grid-row: 2/3;
+}
+.gallery_items5 {
+    grid-column: 2/4;
+    grid-row: 3/4;
+    align-self: stretch;
+}
+.gallery_items6 {
+    grid-column: 4/6;
+    grid-row: 4/5;
+    align-self: stretch;
+}
+.gallery_items7 {
+    grid-column: 2/4;
+    grid-row: 4/5;
+    align-self: stretch;
+}
+.gallery_items8 {
+    grid-column: 5/6;
+    grid-row: 3/4;
+}
+.gallery_items9 {
+    grid-column: 4/5;
+    grid-row: 3/4;
+}
+
+.image_essen {
+    width: 100%;
+}
+
+.linkspan{
+    padding: 10px;
+    background-color: rgb(255,214,26);
+    color: rgb(246,120,35);
+}
